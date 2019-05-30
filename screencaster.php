@@ -16,7 +16,7 @@ Num 2:
 
 
 <?php
-$num3=0;
+// $num3=0;
 if (isset($_GET['Compute'])&& $_GET['Compute'] == 'yes') {
 	# code...
 	// $result = $_GET['result'];
@@ -24,16 +24,21 @@ if (isset($_GET['Compute'])&& $_GET['Compute'] == 'yes') {
 	// $result_message = multiply($num1,$num2);
 	// echo .$result_message.;
 }
-function multply(int $num1, int $num2){
+function multply(float $num1, float $num2){
 	// int $quot = num1+ num2;
-	$Compute= $num1+num2;
-	if (num3<=num2) {
-		# code...
-		echo '$Compute';
+	
+	for ( $num3=0; $num3<num2; $num3++){
+		
+		$compute = num1 +num2;
+	}
+	return $num3;
 	} 
 
-
-}
+multply(1,3);
+multply(4,5);
+multply(1,ratten);
+multply(5,4.5);
+multply(3.4,5);
 
 
 ?>
